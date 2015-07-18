@@ -10,5 +10,8 @@
             "name": "Kirill Berezin",
             "email": "enelar@exsul.net"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": { "phpa2o\\": "" }
+    }
 }
