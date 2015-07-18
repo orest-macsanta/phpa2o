@@ -1,4 +1,4 @@
-<?php
+<?php namespace phpa2o;
 
 class phpa2o implements \arrayaccess, \JsonSerializable, \iterator, \Countable
 {
