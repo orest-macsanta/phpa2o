@@ -11,6 +11,11 @@ class phpa2o implements \arrayaccess, \JsonSerializable, \iterator, \Countable
     $this->original_row_array = $row;
   }
 
+  public function __2array()
+  {
+    return $original_row_array;
+  }
+
   public function __invoke()
   {
     return $this->count();
