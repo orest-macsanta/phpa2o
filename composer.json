@@ -3,7 +3,7 @@
   "description": "PHP Array to Object wrapper",
   "require":
   {
-    "php": "~5.4"
+    "php": "~7.0"
   },
   "license": "MIT",
   "authors":
